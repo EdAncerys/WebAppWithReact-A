@@ -15,6 +15,8 @@ export default function Button({ title }) {
           border: `1px solid ${btnColor}`,
           borderRadius: 5,
           padding: 5,
+          margin: 5,
+          textTransform: 'uppercase',
         }}
         onMouseOver={() => setHover(!hover)}
         onMouseLeave={() => setHover(!hover)}
