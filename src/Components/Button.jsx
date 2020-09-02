@@ -3,18 +3,21 @@ import colors from '../config/colors';
 
 export default function Button({ title }) {
   const [hover, setHover] = useState(false);
-  const btnColor = hover ? colors.medium : colors.secondary;
+  const btnColor = hover ? colors.black : colors.white;
 
   return (
     <div>
       <div
         style={{
-          color: colors.white,
+          display: 'grid',
+          justifyContent: 'center',
+          alignItems: 'center',
+          color: btnColor,
           cursor: 'pointer',
-          backgroundColor: btnColor,
-          border: `1px solid ${btnColor}`,
-          borderRadius: 5,
-          padding: 5,
+          fontSize: 20,
+          fontWeight: 500,
+          borderRadius: 20,
+          padding: 10,
           margin: 5,
           textTransform: 'uppercase',
         }}
