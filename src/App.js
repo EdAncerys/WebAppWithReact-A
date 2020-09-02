@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import NavBar from './Components/NavBar';
+import FeaturedBanner from './Components/FeaturedBanner';
 
 export default function App({ props }) {
   return (
     <div style={styles.container}>
       <NavBar />
-      <div>Hello World</div>
+      <FeaturedBanner />
     </div>
   );
 }

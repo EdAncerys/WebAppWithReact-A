@@ -18,15 +18,14 @@ export default function NavBar({ props }) {
 
 const styles = {
   container: {
-    position: 'relative',
     display: 'grid',
+    position: 'sticky',
+    top: 0,
     gridTemplateColumns: '3fr 2fr',
     justifyContent: 'center',
     alignItems: 'center',
     width: '100vw',
-    padding: '10px 5vw',
     textAlign: 'center',
-    backgroundColor: colors.primary,
   },
   leftContainer: {
     display: 'flex',
@@ -34,6 +33,7 @@ const styles = {
     fontSize: 28,
     color: colors.white,
     textTransform: 'uppercase',
+    cursor: 'pointer',
   },
   rightContainer: {
     display: 'flex',
