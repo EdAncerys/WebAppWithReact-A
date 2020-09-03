@@ -1,14 +1,17 @@
 import React from 'react';
 import Running from '../images/QVD3Xht9txA.jpg';
 import colors from '../config/colors';
+import Button from './Button';
 
 export default function FeaturedBanner({ props }) {
   return (
     <div style={styles.container}>
       <img style={styles.img} alt="running" src={Running} />
       <div style={styles.contact}>
-        Expert In Graphics <br />
-        Design &Development
+        <div>
+          Expert In Graphics <br />
+          Design &Development
+        </div>
       </div>
     </div>
   );
