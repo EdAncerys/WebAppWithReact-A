@@ -15,12 +15,11 @@ const styles = {
   container: {
     display: 'grid',
     alignItems: 'center',
-    paddingLeft: 20,
+    paddingTop: 20,
     bottom: 0,
     width: '90vw',
-    minHeight: 100,
+    minHeight: 50,
     color: colors.medium,
-    borderTop: `1px solid ${colors.light}`,
-    backgroundColor: 'red',
+    borderTop: `1px solid ${colors.medium}`,
   },
 };

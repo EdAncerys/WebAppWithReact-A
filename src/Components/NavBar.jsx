@@ -20,6 +20,7 @@ const styles = {
   container: {
     display: 'grid',
     position: 'sticky',
+    zIndex: 1,
     top: 0,
     gridTemplateColumns: '3fr 2fr',
     justifyContent: 'center',
