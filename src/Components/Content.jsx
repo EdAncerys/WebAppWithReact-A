@@ -41,4 +41,9 @@ const styles = {
     border: `1px solid ${colors.medium}`,
   },
   img: {},
+  text: {
+    color: colors.black,
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
 };

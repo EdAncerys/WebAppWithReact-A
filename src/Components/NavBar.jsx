@@ -5,10 +5,10 @@ import Button from './Button';
 export default function NavBar({ props }) {
   return (
     <div style={styles.container}>
-      <div style={styles.leftContainer}>Portfolio</div>
+      <div style={styles.leftContainer}>Personal Trainer</div>
       <div style={styles.rightContainer}>
-        <Button title="Home" />
-        <Button title="Work" />
+        <Button title="At Home" />
+        <Button title="At Work" />
         <Button title="Hire Me" />
         <Button title="Blog" />
       </div>
