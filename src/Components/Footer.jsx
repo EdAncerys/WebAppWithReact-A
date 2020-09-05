@@ -6,7 +6,7 @@ const year = new Date();
 export default function Footer({ props }) {
   return (
     <div style={styles.container}>
-      <div>&copy; Copyright {year.getFullYear()} Howden Joinery Ltd</div>
+      <div>&copy; Copyright {year.getFullYear()} Personal Trainer Ltd</div>
     </div>
   );
 }
