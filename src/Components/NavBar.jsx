@@ -27,6 +27,7 @@ const styles = {
     alignItems: 'center',
     width: '100vw',
     textAlign: 'center',
+    backgroundImage: `linear-gradient(to bottom right, ${colors.black}, ${colors.secondary})`,
   },
   leftContainer: {
     display: 'flex',
